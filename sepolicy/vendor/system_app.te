@@ -19,6 +19,8 @@ allow system_app sysfs_earpiecegain:file rw_file_perms;
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file r_file_perms;
 allow system_app zygote:unix_stream_socket { getopt };
+allow system_app sysfs_thermal:file rw_file_perms;
+allow system_app sysfs_thermal:dir search;
 
 # neverallow and harmless
 dontaudit system_app time_daemon:unix_stream_socket { connectto };
