@@ -66,6 +66,25 @@
                 android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity"
                 android:targetPackage="org.lineageos.settings.doze" />
         </Preference>
+        <SwitchPreference
+            android:key="fps_info"
+            android:icon="@drawable/ic_fps_info"
+            android:title="@string/fps_info_title"
+            android:summary="@string/fps_info_summary"
+            android:persistent="true" />
+
+        <Preference
+            android:key="device_jason"
+            android:persistent="false"
+            android:summary="@string/jason_pref_summary"
+            android:title="@string/jason_pref_title"
+            android:icon="@drawable/ic_jason">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="org.lineageos.settings.devicex.ButtonSettingsActivity"
+                android:targetPackage="org.lineageos.settings.devicex" />
+        </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
