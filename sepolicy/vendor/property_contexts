@@ -24,7 +24,7 @@ ro.boot.fpsensor                        u:object_r:hal_fingerprint_prop:s0
 sys.fp.                                 u:object_r:hal_fingerprint_prop:s0
 
 # Media
-gpu.stats.debug.level                   u:object_r:vendor_default_prop:s0
+gpu.stats.debug.level               u:object_r:vendor_default_prop:s0
 
 # Mlipay
 persist.vendor.sys.pay.                 u:object_r:mlipay_prop:s0
