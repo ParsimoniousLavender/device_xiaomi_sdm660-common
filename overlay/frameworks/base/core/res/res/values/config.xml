@@ -311,4 +311,7 @@
 
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
     <bool name="config_useRoundIcon">true</bool>
+
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
 </resources>
