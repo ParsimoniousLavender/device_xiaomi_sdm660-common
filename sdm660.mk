@@ -113,7 +113,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
     libhdmiedid \
     libhfp \
     libsndmonitor
