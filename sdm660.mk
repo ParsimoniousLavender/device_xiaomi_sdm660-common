@@ -300,7 +300,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.safailnet.rc
+    init.safailnet.rc \
+	init.xiaomi_parts.rc
 
 # IPv6
 PRODUCT_PACKAGES += \
