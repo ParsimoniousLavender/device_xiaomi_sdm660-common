@@ -51,6 +51,9 @@ $(call inherit-product, $(COMMON_PATH)/common_prop.mk)
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 
+# R HALs
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8998-r
+
 # A/B
 ifeq ($(ENABLE_AB), true)
 AB_OTA_POSTINSTALL_CONFIG += \
