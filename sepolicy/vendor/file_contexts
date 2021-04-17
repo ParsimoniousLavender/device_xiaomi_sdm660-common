@@ -1,8 +1,11 @@
+# Amplifier
+/(vendor|system/vendor)/bin/tinymix                                                                                         u:object_r:vendor_tinyalsa_exec:s0
+
 # Biometric
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_sdm660                       u:object_r:hal_fingerprint_sdm660_exec:s0
 
 # Executables
-/system/bin/chargeonlymode                                                                                                  u:object_r:charger_exec:s0
+/vendor/bin/sh                                                                                                              u:object_r:vendor_shell_exec:s0
 
 # Fingerprint
 /data/gf_data(/.*)?                                                                                                         u:object_r:fingerprintd_data_file:s0
@@ -56,3 +59,6 @@
 
 # USB
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.xiaomi_sdm660                                           u:object_r:hal_usb_default_exec:s0
+
+# Video4linux sysfs nodes
+/sys/devices/soc/caa0000\.qcom,jpeg/video4linux/video1(/.*)?                                                                u:object_r:sysfs_graphics:s0
