@@ -157,6 +157,9 @@ void vendor_load_persist_properties()
 }
 void vendor_load_properties()
 {
+    property_override("ro.build.description", "lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys");
+  
     check_device();
     
     property_override("dalvik.vm.heapstartsize", heapstartsize);
