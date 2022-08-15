@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+    libgralloc.qti \
     vendor.display.config@1.0 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
