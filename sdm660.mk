@@ -173,7 +173,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack-service.example \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
