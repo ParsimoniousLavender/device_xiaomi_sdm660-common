@@ -477,8 +477,7 @@ endif
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    SystemUI
+    Settings
 
 # Protobuf
 PRODUCT_PACKAGES += \
