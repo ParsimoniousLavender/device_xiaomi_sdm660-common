@@ -82,6 +82,10 @@ public class BootReceiver extends BroadcastReceiver implements Utils {
         FileUtils.setProp(DeviceSettings.HALL_WAKEUP_PROP, Settings.Secure.getInt(
                 context.getContentResolver(), DeviceSettings.PREF_HALL_WAKEUP, 1) == 1);
 
+        // Thermal
+        FileUtils.setValue(DeviceSettings.THERMAL_PATH, Settings.Secure.getInt(context.getContentResolver(),
+                DeviceSettings.PREF_THERMAL, 0));
+
         // Dirac
         context.startService(new Intent(context, DiracService.class));
 
