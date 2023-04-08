@@ -9,6 +9,7 @@ persist.vendor.audio.hac.enable=false
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
+ro.config.alarm_vol_steps=25
 
 # Bluetooth & FM
 vendor.bluetooth.soc=cherokee
