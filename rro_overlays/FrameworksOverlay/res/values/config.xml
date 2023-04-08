@@ -1011,4 +1011,11 @@
 
     <!-- Determines whether the shell features all run on another thread. -->
     <bool name="config_enableShellMainThread">true</bool>
+
+    <!-- The number of volume steps for the notification stream -->
+    <integer name="config_audio_notif_vol_steps">25</integer>
+
+    <!-- The number of volume steps for the ring stream -->
+    <integer name="config_audio_ring_vol_steps">25</integer>
+
 </resources>
