@@ -137,6 +137,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0 \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
+# Clover parts
+PRODUCT_PACKAGES += \
+    CloverParts
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
