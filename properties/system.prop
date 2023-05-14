@@ -76,9 +76,6 @@ debug.sf.enable_hwc_vds=0
 debug.sf.enable_transaction_tracing=false
 ro.surface_flinger.max_virtual_display_dimension=4096
 
-# Fwk detect
-ro.vendor.qti.va_aosp.support=1
-
 # Fling
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
