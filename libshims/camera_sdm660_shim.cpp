@@ -11,4 +11,5 @@ namespace android {
 
     extern "C" void _ZN7android6Parcel17writeUint64VectorERKNSt3__16vectorIyNS1_9allocatorIyEEEE() { };
     extern "C" void _ZNK7android6Parcel16readUint64VectorEPNSt3__16vectorIyNS1_9allocatorIyEEEE() { };
+    extern "C" void _ZN14SeeMoreWrapper11_yu3oaTHCJgEv() { };
 }
