@@ -24,11 +24,6 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 endif
 
-# APEX image
-ifeq ($(ENABLE_APEX), true)
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-endif
-
 # Broken Files/Headers
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
