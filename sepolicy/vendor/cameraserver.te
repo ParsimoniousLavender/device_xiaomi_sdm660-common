@@ -1,3 +1,5 @@
+allow cameraserver property_socket:sock_file write;
+allow cameraserver init:unix_stream_socket connectto;
 binder_call(cameraserver, mediacodec);
 get_prop(cameraserver, vendor_camera_prop)
 get_prop(cameraserver, vendor_video_prop)
