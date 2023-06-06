@@ -501,12 +501,6 @@ vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781
 vendor/lib64/libmlipay.so|3d78c8a99c9248df20ad7ebc2c9abbd4c579d38c
 vendor/lib64/libmlipay@1.1.so|885d0c6eba14c5d2da5e245844bea3c3ae1540af
 
-# Perf - from LA.UM.8.6.2.r1-08600-89xx.0
-vendor/lib64/libadaptlaunch.so|cf784401fc827e5195d595a6d855ec89ea8c22bf
-vendor/lib64/libappclassifier.so|d5956c2dc9344ddcca0e78d84c393320c2e0cc97
-vendor/lib64/libgameoptfeature.so|b135489d253f0a8d7884238fe7887eb85b87745d
-vendor/lib64/liblearningmodule.so|a9390d0ef1ec82c97a61035ec686c1d094fdca98
-
 # Peripheral - from ginkgo V12.5.1.0.RCOCNXM
 vendor/bin/pm-proxy|8e159d1fb25f5ee24cf94be8534b3bb8891831bc
 vendor/bin/pm-service|951e322c67132fe8826648e4fda9ddf5e4304e8a
