@@ -227,59 +227,68 @@ vendor/etc/diracvdd.bin|f9b07ace60490649c44411504909c7bf8bc73d59
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
-# DRM - from S62Pro RKQ1.210406.002
-vendor/bin/qseecomd|97eeb3f297d16e0364e73f8e78ccb7a07e70f093
-vendor/lib/libQSEEComAPI.so|14d85d1661f11fed27a99f618370de21abfbf1b9
-vendor/lib/libsdedrm.so|752fa74723368e6bde29cbf004fe31d6f33ceb97
-vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
-vendor/lib64/libGPreqcancel_svc.so|5369bb41c214c0bd3782438c0488cd2dba8cb667
-vendor/lib64/libQSEEComAPI.so|7ad0a71938c1de5dbb54a52fb68285ac08f0a130
-vendor/lib64/libSecureUILib.so|b98555b76083a897fc9bbfc27778750d2d47817a
-vendor/lib64/libStDrvInt.so|6091f1f496b87730f9a77e9ede504c4fa99c608a
-vendor/lib64/libdrmfs.so|d01f7964b64bfabd56afea030a2e874f5b3af266
-vendor/lib64/libdrmtime.so|9aca2a5224378365232933b06a742a2498dd7468
-vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
-vendor/lib64/librpmb.so|eac8411b60e4842b0fee4c9145dd9cdc3e24a67e
-vendor/lib64/libsdedrm.so|f02d7bef5f9fa3f1265b5a8b3b8ab481a4cedee2
-vendor/lib64/libsecureui.so|0eec99f49f628e4279b99f475916e4b86fa134ee
-vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
-vendor/lib64/libssd.so|774488b88c37053067b3cad551ac95360c03edd3
+# DRM - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/qseecomd|580fbb8109e191c0ba2eb476acd8d29c8d2eefed
+vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
+vendor/lib/libQSEEComAPI.so|3a8eca79e24ffdaf1791b0f1cae84abf88f4161e
+vendor/lib/libsdedrm.so|516b320b6a55a23b2f4764074d4796a29483fac1
+vendor/lib64/libGPQTEEC_vendor.so|a4a5b76e15f388a68d2511cd88db4d71d52d74ab
+vendor/lib64/libGPreqcancel.so|85bd5c16f107b7fbfccf506386e52e41d53d67e7
+vendor/lib64/libGPreqcancel_svc.so|00aa6595a81d9a5df09d2132347a903995e6dc95
+vendor/lib64/libGPTEE_vendor.so|50f15ad9e0a86ea0edee0b0dad778dbb1aad30e1
+vendor/lib64/libQSEEComAPI.so|ac4f9387915027b61a8e958a4dd9eeda7583b4d9
+vendor/lib64/libSecureUILib.so|8e39219d3cc7ac0dc3563119fddffac8e7ed91d6
+vendor/lib64/libStDrvInt.so|35167fff3f4cb17db48e0c13b2f9351f9fdb0406
+vendor/lib64/libdrmfs.so|af6a20adc4b778337c5b978051d154d40020d00f
+vendor/lib64/libdrmtime.so|08c0a5c8f311b9440c41a8509ade8d889f984f11
+vendor/lib64/libqisl.so|cf0d6f091fefb95f482f6ea5dfd98755bf816f63
+vendor/lib64/librpmb.so|183ea86bd0608af5eaef76c275348b2893a7ce72
+vendor/lib64/libsdedrm.so|d262823ae1e118165ba06a67dba15806bc27d1d2
+vendor/lib64/libsecureui.so|7f3887a00b5eeccfe4d9bf8192a5d9b1100e66c1
+vendor/lib64/libsecureui_svcsock.so|ce9b2f737a47ca50118120581790080dc608fbbc
+vendor/lib64/libsi.so|a357066a9c5c2309452de794c7d9816d62fcfd64
+vendor/lib64/libssd.so|0473126e74e5cf7dff2bfa1f0b9f8c504818fe38
+vendor/lib64/libtrustedapploader.so|8e1ba14b222370acb44775a40e4cdaca74d8fc4b
+vendor/lib64/libtzdrmgenprov.so|77f37f35c1e61d36bf32df4215487329872095c9
 
-# DRM (Qualcomm Trusted Execution Enviroment) - from S62Pro RKQ1.210406.002
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
+# DRM (Qualcomm Trusted Execution Enviroment) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|1f19be8fdbd58738aa80d5f658ea63818571bb59
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|3d0c9fbc3845248d8264d1875e476c23b41f2790
-vendor/lib/libQTEEConnector_vendor.so|16a10203eea17821f87e5e078300b8ecbe29deb3
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|98fbae4add3d6edc096aed3634831a50328491e5
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|00b11c69484701f95d1f9e1021a66326b5c66e97
-vendor/lib64/libQTEEConnector_vendor.so|bf3050ea3ef5435f0289092681f07a2fe834958b
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|4e08dcd830d319c1a56d108c037b1f76eb5060d4
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|c476af2a78e7948849a5c96319fceb467b75e0ed
+vendor/lib/libQTEEConnector_vendor.so|82fb1d256fe039c27378b0e8e848b91e0808d27a
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|0e59f6289bbf88375bd1f3ba92e3c3be9759ccb7
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|183e7a78dda19e11f9232537b45ea9cac98d1eff
+vendor/lib64/libQTEEConnector_vendor.so|c76e55b6408d52857fbb4e600f3d33fe74daabb4
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|0e8a8a4e021b6db3c8429ebea782f82c804059f8
 
-# DRM (TUI) - from S62Pro RKQ1.210406.002
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
+# DRM (TUI) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so|dc30ce560414117dc32ab331ff7737d21347005d
+system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so|b42fa9db67cf5050c3ae4e93ea3954ea2bff4bdb
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|cf3d3d18a169c2fdb601aece7d8ec09df0d88bf7
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|16dc51cd62ce73adebdff600e764da481504962f
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003c800f51b4
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|88a8ac5aa140029762836bd2bba0984ead548756
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|19599f6a2afd8a218a2a1d3bb214575db98e3c53
 
-# DRM (Widevine) - from S62Pro RKQ1.210406.002
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libbase64.so|ba6ad6314fe82d8efc770e436237dec48c9d1331
-vendor/lib64/libcpion.so|80d7e010395b3ead01b70435584dfa11afbb52bf
-vendor/lib64/librmp.so|6392e70196f5a6da2d49a1aaec60f06ca378f1c4
-vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
-vendor/lib64/mediadrm/libwvdrmengine.so|eef10067daf437a2c302e668967a7c8c55fddbe9
+# DRM (Widevine) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine|0918336440ba0464f93fee97925b94ad12b7ef5d
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
+vendor/lib/libcpion.so|183ae0506fc49d15118a621dc259f1d6dc471add
+vendor/lib/libmm-hdcpmgr.so|0e6c6b410f5f14b5cb1ae9bc7e4aff7354a6e57b
+vendor/lib64/mediadrm/libwvdrmengine.so|f90815f6dee8ddb57d15d68c8e61258d1085b015
+vendor/lib64/libbase64.so|df5aef5f70d27e5335c978b99012d6ca202a0266
+vendor/lib64/libcpion.so|d7d4e062babfb51805e7d6ea81fe00de1fb8e3d1
+vendor/lib64/libhdcpsrm.so|bb9d45e4f2dc7953e80842d2c572b11b97445b32
+vendor/lib64/libmm-hdcpmgr.so|6eb020e22b98becb011c9b8965fddafd8a80c37a
+vendor/lib64/librmp.so|14a97f308196f13ae6d1ad18ea600a6f0237362f
+vendor/lib64/libwvhidl.so|b2649763d9e7ba4f7f8a0f96cc4ad9228b29a490
 
-# DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
-vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
-
-# DSP - from S62Pro RKQ1.210406.002
-vendor/bin/dspservice|a8eb76af6150bbf29c12b76b00ab469b99f563f7
+# DSP - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/dspservice|4ea49e1d95df172efe99e49d66c4a2cc485bd01d
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|f902e821229cd1fff50ebfba99b0a068cbf74a56
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so|223a9268bd92bd80dab3df02fbef38ea86bcbadd
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|7015792d08d3032a5d3dcfd87e1f3ea5947af5ce
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|301f1982de9c3cdbb17d508717d092a72749a582
 
 # ESE - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|63bff7d1ac937d6dea6fcb3ddb2acbbdcad06eff
@@ -291,12 +300,10 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|57784f09c1c5ddebcfc2499f5
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|2ef4dcdc5c3c93e757bbcb3ce7db1375fa8e1883
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|9722d849e3fc38ba3aa7828cd47133856eb82cd0
 
-# FM - from S62Pro RKQ1.210406.002
-system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
-system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so|5eaf6d5d67361ff6236c1ec4f5225c6185a904a6
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|05931b5d088bd7000b0b002ee650b0953e272cd7
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe25f
+# FM - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/lib64/fm_helium.so|917d8aed5dd0f25ebd0e9fa82a60823996fba586
+system_ext/lib64/libfm-hci.so|8911fc8c721338fc64e3a98c299e20162a9b0f53
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|f3d0cd85c9e0a88eafacbcdeff6d4e2b109b95f9
 
 # GPS - from lemon RKQ1.201004.002
 vendor/bin/garden_app|9a27b84362075aa49c8ca67f2a6be30ad4eeb108
@@ -420,8 +427,8 @@ vendor/lib64/hw/vulkan.adreno.so|9215100009b574f71dc75272f22a499302ea121d
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
 
-# IRQ balance - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
+# IRQ balance - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/msm_irqbalance|33325d1b5bd1c4fdfa964f638da633ef8ca1ac43
 
 # Keymaster - from S62Pro RKQ1.210406.002
 vendor/lib64/libkeymasterdeviceutils.so|6fd0b0e1b30c4e6c5272794896306596880c657b
