@@ -168,9 +168,9 @@
         <fqname>@1.0::IDspService/dspservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.perf</name>
+        <name>vendor.qti.hardware.qdutils_disp</name>
         <transport>hwbinder</transport>
-        <fqname>@2.2::IPerf/default</fqname>
+        <fqname>@1.0::IQdutilsDisp/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.qseecom</name>
