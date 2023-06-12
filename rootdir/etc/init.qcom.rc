@@ -397,10 +397,8 @@ on property:ro.vendor.iocgrp.config=1
     chown system system /dev/blkio/tasks
     chmod 0664 /dev/blkio/tasks
     mkdir /dev/blkio/bg 0755 system system
-    chown system system /dev/blkio/bg/tasks
-    chmod 0664 /dev/blkio/bg/tasks
-    write /dev/blkio/blkio.weight 1000
-    write /dev/blkio/background/blkio.weight 100
+    chown system system /dev/blkio/background/tasks
+    chmod 0664 /dev/blkio/background/tasks
 
 on property:persist.sys.ssr.enable_debug=*
     write /sys/module/subsystem_restart/parameters/enable_debug ${persist.sys.ssr.enable_debug}
