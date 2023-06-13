@@ -259,6 +259,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor \
     android.hardware.keymaster@3.0.vendor \
     android.hardware.keymaster@4.0.vendor \
+    android.hardware.power@1.3.vendor \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio@1.6.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
