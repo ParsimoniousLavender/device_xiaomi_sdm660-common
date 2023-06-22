@@ -978,10 +978,6 @@
     <!-- The number of volume steps for the ring stream -->
     <integer name="config_audio_ring_vol_steps">25</integer>
 
-    <!-- Flag indicating whether notification and ringtone volumes
-         are controlled together (aliasing is true) or not. -->
-    <bool name="config_alias_ring_notif_stream_types">false</bool>
-
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent">org.lineageos.aperture/.QrScannerActivity</string>
 
