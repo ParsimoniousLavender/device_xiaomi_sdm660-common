@@ -122,9 +122,6 @@ persist.vendor.audio.spatializer.speaker_enabled=true
 # Camera
 vendor.camera.aux.packageblacklist=com.discord
 
-# Codec2 switch
-debug.media.codec2=2
-
 # Data
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
