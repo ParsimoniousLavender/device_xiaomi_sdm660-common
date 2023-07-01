@@ -476,12 +476,7 @@ else
 endif
 
 # Preopt SystemUI
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3QuickStep \
-    Nexuslauncher \
-    lawnchair \
-    Settings \
-    SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
 # Protobuf
 PRODUCT_PACKAGES += \
