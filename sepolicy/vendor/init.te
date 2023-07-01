@@ -1,3 +1,5 @@
+get_prop(init, exported_default_prop)
+
 allow init adsprpcd_file:file mounton;
 allow init apex_metadata_file:lnk_file read;
 allow init socket_device:sock_file { unlink setattr create };
@@ -26,6 +28,7 @@ allow init {
  vendor_configs_file
  vendor_framework_file
  vendor_app_file
+ vendor_overlay_file
 }:file mounton;
 
 allow init hal_fingerprint_sdm660:process ptrace;
