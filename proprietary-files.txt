@@ -289,9 +289,6 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5f
 vendor/lib/vendor.qti.hardware.dsp@1.0.so|f902e821229cd1fff50ebfba99b0a068cbf74a56
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|223a9268bd92bd80dab3df02fbef38ea86bcbadd
 
-# EIS - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/lib/libmmcamera_ppeiscore.so|072a47bac12e7cd9737ca235b4f254989dc013f0
-
 # FM - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 system_ext/lib64/fm_helium.so|d24c1e33e778867de8af036b97249a5e555e4d8e
 system_ext/lib64/libfm-hci.so|439f3bd3c8035482b598a099c2d5c7c09bad66c7
