@@ -164,6 +164,8 @@ endif
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+USE_DEX2OAT_DEBUG := false
+
 # Display
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
