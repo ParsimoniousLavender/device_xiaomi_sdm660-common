@@ -1,4 +1,2 @@
 get_prop(hal_usb_default, vendor_usb_prop)
 set_prop(hal_usb_default, vendor_usb_prop)
-
-allow hal_usb_default sysfs_battery_supply:dir r_dir_perms;
