@@ -440,9 +440,13 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so|2ef4dcdc5c3c93e757bbcb3ce7db1375f
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|9722d849e3fc38ba3aa7828cd47133856eb82cd0
 
 # FM - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/lib/vendor.qti.hardware.fm@1.0.so|05b2b5207d7ab6406785af3ea9e38d7a946f8144
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|45cbf1cf97dbd50d5535e9f0318927e661692fdd
 system_ext/lib64/fm_helium.so|917d8aed5dd0f25ebd0e9fa82a60823996fba586
 system_ext/lib64/libfm-hci.so|8911fc8c721338fc64e3a98c299e20162a9b0f53
+vendor/lib/vendor.qti.hardware.fm@1.0.so|d1c35853966025c6a72c20da1c2d336bba017ddf
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|f3d0cd85c9e0a88eafacbcdeff6d4e2b109b95f9
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|2eac8b243af9f225b0c68987b2b1844df9660e84
 
 # Gatekeeper QTI - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|634b7bb3cffcfea34c7be72e4d8e5c902bda5036
