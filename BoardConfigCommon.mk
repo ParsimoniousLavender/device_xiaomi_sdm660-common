@@ -179,6 +179,9 @@ else
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 endif
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
+
 # RIL
 PROTOBUF_SUPPORTED := true
 ENABLE_VENDOR_RIL_SERVICE := true
