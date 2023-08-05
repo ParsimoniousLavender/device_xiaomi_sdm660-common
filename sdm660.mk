@@ -388,10 +388,6 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-evo
-
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     DialerOverlay \
