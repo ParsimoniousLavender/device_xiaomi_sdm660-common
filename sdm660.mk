@@ -467,7 +467,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
-    libprotobuf-cpp-lite-vendorcompat
+    libprotobuf-cpp-lite-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # Privapp-Permissions
 PRODUCT_COPY_FILES += \
