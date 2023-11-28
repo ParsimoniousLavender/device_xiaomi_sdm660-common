@@ -264,8 +264,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.wifi.hostapd@1.3.vendor \
-    android.hardware.neuralnetworks@1.3 \
-    android.hardware.neuralnetworks@1.3.vendor \
     android.hardware.keymaster@4.1.vendor \
     android.hardware.power@1.3.vendor \
     android.hardware.radio.config@1.3.vendor \
