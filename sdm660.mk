@@ -602,9 +602,6 @@ PRODUCT_PACKAGES += \
     libstdc++_vendor \
     com.android.vndk.current.on_vendor
 
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
-
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
