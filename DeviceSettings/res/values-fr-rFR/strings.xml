@@ -135,4 +135,19 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Métal</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_profile_title">Thermique</string>
+    <string name="thermal_title">Paramètres thermiques</string>
+    <string name="thermal_summary">Choisissez votre profil thermique</string>
+    <string name="thermal_dialogTitle">Choisissez votre profil thermique</string>
+
+    <!-- Values for Thermal Presets -->
+    <string name="thermal_performance">Performance</string>
+    <string name="thermal_battery">Batterie</string>
+    <string name="thermal_gaming">Jeu</string>
+    <string name="thermal_balance">Equilibré</string>
+    <string name="thermal_extreme_battery">Batterie extrème</string>
+
+
 </resources>
