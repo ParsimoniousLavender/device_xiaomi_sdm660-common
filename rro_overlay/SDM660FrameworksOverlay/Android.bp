@@ -15,7 +15,7 @@
 //
 
 runtime_resource_overlay {
-    name: "CarrierConfigOverlay",
+    name: "SDM660FrameworksOverlay",
     resource_dirs: ["res"],
     vendor: true,
 }

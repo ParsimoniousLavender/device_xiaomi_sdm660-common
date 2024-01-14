@@ -15,7 +15,7 @@
 //
 
 runtime_resource_overlay {
-    name: "DialerOverlay",
+    name: "SDM660CarrierConfigOverlay",
     resource_dirs: ["res"],
     vendor: true,
 }

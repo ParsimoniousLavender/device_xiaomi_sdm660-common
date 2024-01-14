@@ -15,7 +15,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIOverlay",
+    name: "SDM660SettingsProviderOverlay",
     resource_dirs: ["res"],
     vendor: true,
 }

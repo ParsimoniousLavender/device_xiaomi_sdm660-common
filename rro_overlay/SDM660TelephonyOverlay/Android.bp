@@ -15,7 +15,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsOverlay",
+    name: "SDM660TelephonyOverlay",
     resource_dirs: ["res"],
     vendor: true,
 }

@@ -387,13 +387,13 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlay \
-    DialerOverlay \
-    FrameworksOverlay \
-    SettingsOverlay \
-    SettingsProviderOverlay \
-    SystemUIOverlay \
-    TelephonyOverlay
+    SDM660CarrierConfigOverlay \
+    SDM660DialerOverlay \
+    SDM660FrameworksOverlay \
+    SDM660SettingsOverlay \
+    SDM660SettingsProviderOverlay \
+    SDM660SystemUIOverlay \
+    SDM660TelephonyOverlay
 
 # RRO configuration
 TARGET_USES_RRO := true

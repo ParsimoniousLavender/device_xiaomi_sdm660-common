@@ -11,11 +11,11 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.phone.overlay">
+    package="com.android.frameworks.overlay.sdm660">
 
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="com.android.phone"
+      android:targetPackage="android"
       android:isStatic="true"
       android:priority="1"/>
 </manifest>
