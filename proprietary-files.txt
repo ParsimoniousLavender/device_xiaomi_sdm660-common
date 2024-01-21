@@ -667,12 +667,8 @@ vendor/lib64/libmulawdec.so|179e0f2d77498a0dc9080b9ba7a17ac995b64d2e
 # Media - from LA.QSSI.13.0.r1-10000.02-qssi.0
 system_ext/lib/extractors/libmmparserextractor.so|f530f24d409031c030d94260ea1cc5b7d42ec734
 system_ext/lib/libavenhancements.so|6edb900cf182fe84b5d13b2b40bd04f3d5b6edf3
-system_ext/lib/libmmosal.so|47f1f3b51063aa10e1175333dc32522637289dc7
-system_ext/lib/libmmparser_lite.so|f63d4f3e66ee2e87a94646f6e49c80f9308c7c37
 system_ext/lib64/extractors/libmmparserextractor.so|07eb92a082ab1b516b39e1c8b1110e5d7bb66a1d
 system_ext/lib64/libavenhancements.so|4b265957bd8c20bc088f5e6333832f0790de5a7b
-system_ext/lib64/libmmosal.so|d46f10b470ecd829c6f2a424566f1cbbc6ebe234
-system_ext/lib64/libmmparser_lite.so|be18953c8c05af2af44bf7feccf2de4fdedaa3a3
 
 # Media - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/lib/libAlacSwDec.so|0eae95f42049a7ed39137cbba8e735ec1e275282
