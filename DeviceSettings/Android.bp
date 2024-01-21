@@ -19,7 +19,7 @@ android_app {
 
     static_libs: [
         "androidx.core_core",
-        "org.lineageos.settings.resources",
+        "org.pixelbuilds.settings.resources",
     ],
 
     optimize: {
