@@ -980,4 +980,12 @@
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent">org.lineageos.aperture/.QrScannerActivity</string>
 
+    <!-- Build properties from a GMS certified device against current platform SPL level -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>angler</item>   <!-- Build.DEVICE -->
+        <item>angler</item>   <!-- Build.PRODUCT -->
+        <item>Nexus 6P</item> <!-- Build.MODEL -->
+        <item>google/angler/angler:7.0/NPD90G/3051502:user/release-keys</item> <!-- Build.FINGERPRINT -->
+    </string-array>
+
 </resources>
