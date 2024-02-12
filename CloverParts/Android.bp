@@ -16,7 +16,7 @@ android_app {
     privileged: true,
 
     static_libs: [
-        "org.pixelbuilds.settings.resources",
+        "org.lineageos.settings.resources",
         "androidx.cardview_cardview",
         "androidx.preference_preference",
         "androidx.appcompat_appcompat",
