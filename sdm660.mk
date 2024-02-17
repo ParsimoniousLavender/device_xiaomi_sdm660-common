@@ -175,8 +175,6 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.frameworks.displayservice@1.0.vendor \
-    android.hardware.graphics.allocator@3.0-impl \
-    android.hardware.graphics.allocator@4.0-impl \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
@@ -572,7 +570,6 @@ PRODUCT_PACKAGES += \
 # Tin
 PRODUCT_PACKAGES += \
     libtinyxml \
-    tinyxml2 \
     libxml2 
 
 # Thermal
@@ -618,7 +615,7 @@ PRODUCT_PACKAGES += \
     hostapd_cli \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
+    SDM660WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
